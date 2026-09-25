@@ -1,3 +1,5 @@
-print(type('a'))
-print(type('apple'))
-print(len('apple'))
+# print(type('a'))
+# print(type('apple'))
+# print(len('apple'))
+# print(False+False+True+True)
+print("7"==7)

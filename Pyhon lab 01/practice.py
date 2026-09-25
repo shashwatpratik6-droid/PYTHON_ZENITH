@@ -12,4 +12,5 @@
 # hobby = input("Enter your hobby: ")
 
 # print("=====WELCOME=====\nName:" \tname "\nCity:\tcity\nHobby:\thobby\n===================")
-print(6.8%2)
+# print(6.8%2)
+print(7^7)
