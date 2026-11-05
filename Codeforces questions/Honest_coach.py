@@ -1,16 +1,16 @@
 x = int(input())
-for i in range(0,x):
+
+for i in range(x):
     y = int(input())
-    for j in range(0,y):
-        a = list(map(int,input().split()))
-        a.sort()
-        diff=0
-        for k in range(0,y-1):
-            difference = a[k+1]-a[k]
-            diff=difference
-            if difference<diff :
-                ans=difference
-            k+=1
-        j+=1
-    i+=1
+    a = list(map(int, input().split()))
+    a.sort()
+
+    ans = a[1] - a[0]
+
+    for k in range(1, y - 1):
+        diff = a[k + 1] - a[k]
+        if diff < ans:
+            ans = diff
+
+    print(ans)
 
