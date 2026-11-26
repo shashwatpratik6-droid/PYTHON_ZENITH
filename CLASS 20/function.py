@@ -34,3 +34,4 @@ def total(*nums):
 
 total(5,4,6,5,4)
 
+    
